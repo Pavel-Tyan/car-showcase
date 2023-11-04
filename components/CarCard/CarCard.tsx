@@ -1,0 +1,27 @@
+'use client';
+
+import { useState } from 'react';
+import Image from 'next/image';
+import { CarCardProps } from './CarCard.props';
+import { CustomButton } from '..';
+import { calculateCarRent } from '@/helpers/helpers';
+
+export const CarCard = (car: CarCardProps): JSX.Element => {
+    const { city_mpg, year, make, model, transmission, drive } = car;
+
+    const carRent = calculateCarRent(city_mpg, year);
+    return (
+        <div className='car-card group'>
+            <div className='car-card__content'>
+                <h2 className='car-card__content-title'>
+                    {make}
+                    {model}
+                </h2>
+            </div>
+
+            <p>
+                <span>{carRent}</span>
+            </p>
+        </div>
+    );
+};
