@@ -7,5 +7,5 @@ export interface CustomButtonProps {
     btnType?: 'button' | 'submit';
     textStyles?: string;
     rightIcon?: string;
-    isDisable?: boolean;
+    isDisabled?: boolean;
 }
