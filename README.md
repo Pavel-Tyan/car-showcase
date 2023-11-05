@@ -1,11 +1,11 @@
-# [Next.js](https://nextjs.org/) App (Page Router) for car showcase
+# [Next.js](https://nextjs.org/) App (App Router) for car showcase
 
 ![Alt text](img/screen.png)
 ![Alt text](img/screen2.png)
 
 ## Tools
 
-React, Next.js, tailwind CSS
+### React, Next.js, tailwind CSS
 
 ## How to run project
 
