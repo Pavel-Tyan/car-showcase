@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CustomButton } from '..';
+import { CustomButton } from '../CustomButton/CustomButton';
 
 export const Navbar = (): JSX.Element => {
     return (

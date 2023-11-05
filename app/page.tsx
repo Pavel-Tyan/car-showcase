@@ -1,10 +1,16 @@
-import { CarCard, CustomFilter, Hero, SearchBar } from '@/components';
+import { CarCard } from '@/components/CarCard/CarCard';
+import { CustomFilter } from '@/components/CustomFilter/CustomFilter';
+import { Hero } from '@/components/Hero/Hero';
+import { SearchBar } from '@/components/SearchBar/SearchBar';
 import { fetchCars } from '@/helpers/api';
 
 export default async function Home() {
     const allCars = await fetchCars();
 
+    console.log(allCars);
+
     const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
+
     return (
         <main className='overflow-hidden'>
             <Hero />

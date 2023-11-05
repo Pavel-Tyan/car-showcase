@@ -1,7 +1,6 @@
 'use client';
-
 import Image from 'next/image';
-import { CustomButton } from '..';
+import { CustomButton } from '../CustomButton/CustomButton';
 
 export const Hero = (): JSX.Element => {
     const handleScroll = () => {};
