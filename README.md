@@ -3,6 +3,10 @@
 ![Alt text](img/screen.png)
 ![Alt text](img/screen2.png)
 
+## Tools
+
+React, Next.js, tailwind CSS
+
 ## How to run project
 
 First, run the development server:
