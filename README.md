@@ -5,7 +5,7 @@
 
 ## Tools
 
-### React, Next.js, tailwind CSS
+### React, Next.js, tailwind CSS, Headless UI
 
 ## How to run project
 
